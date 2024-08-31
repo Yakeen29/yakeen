@@ -1,0 +1,222 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cairo&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
+*{
+ font-family: 'Poppins', sans-serif;
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ scroll-behavior: smooth;
+}
+body{
+    background-color: #e4fcf9 ;
+    
+}
+.header{
+    background-color: #ace6f6;
+    width: 90%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.yaaa{
+    width: 20%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.yakeen {
+    text-decoration: none;
+    color: #4b89ac;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yakeen a:hover{
+    color: #446491;
+}
+.experiences a{
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    color: #4b89ac;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.experiences a:hover{
+    color: #446491;
+}
+section{
+    padding: 1px 300px;
+}
+.yaaa{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.soical{
+    color: #4b89ac;
+    padding: 300px;
+    font-size: 27px;
+    margin: 50px;
+}
+ h2{
+    color: black;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #4b89ac; 
+    font-size: 70px;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+h3{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    letter-spacing: 0.5px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Certificates{
+    color: #ace6f6;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 0px;
+    background-color: #4b89ac;
+    padding: 10px 15px;
+    transition: 0.4s ease;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.Certificates:hover{
+    background-color: #3e7798;
+    transform:scale(1.1) ;
+}
+/* Container for the cards */
+.card-container {
+ display: flex;
+ flex-wrap: wrap;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-left: 5px;
+ width: 100%
+ 
+
+ 
+}
+.title{
+    padding-top: 10px;
+    font-size: 50px;
+   margin-left: 600px;
+   margin-bottom: 90px;
+}
+
+/* single card */
+.card {
+ width: calc(33.33% - 20px);
+ max-width: 300px;
+ height: 300px;
+ margin: 30px;
+ border-radius: 10px;
+ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+ transition: transform 0.4s ease-in-out, background-color 0.4s ease-in-out;
+ padding: 20px;
+ padding-bottom: 10px;
+}
+
+/* Hover effect */
+.card:hover {
+ transform: scale(1.1);
+ background-color: #cce7e3;
+}
+
+/* Icon */
+.card-icon {
+ font-size: 2rem;
+ margin-bottom: 20px;
+}
+
+/* Card content */
+.card-content {
+ text-align: center;
+ padding: 20px;
+}
+
+.card-content h3 {
+ margin: 0px;
+ font-size: 2em;
+ font-weight: 700;
+ color: #446491;
+
+}
+.card-container p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+footer{
+    margin-top: 80px;
+    background-color: rgb(49, 49, 49);
+    padding: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    width: 100%;
+    align-items:center;
+}
+.footer-Media{
+  color: #e4fcf9;
+}
+.footer-Media a:hover{
+    color: #1d197e;
+}
+
+.footer-titel{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    color: #e4fcf9;
+}
+.footer-titel span{
+    color: #3e7798;
+    font-size: 1.1em;
+    padding: 10px;
+  
+}
+@media (max-width:1023){
+header{
+    padding: 1px 1px;
+    width: 70%;
+}
+.experiences{
+    padding-left: 20px;
+}
+.yaaa{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: first baseline;
+}
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 767px) {
+    .card-container {
+     flex-direction: column;
+    }
+    .card {
+     width: 100%;
+    }
+}
